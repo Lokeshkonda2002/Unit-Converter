@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="converter.css">
+</head>
+<body>
+<h1 id="sub">Temperature Converter</h1>
+<p>
+<center><label>Celcius</label>
+<input id="inputKG" type="number" placeholder="Celcius"
+oninput="CtoFConverter(this.value)" onchange="CtoFConverter(this.value)">
+</p></center>
+<center><p>Fahrenheit: <span class="fahrenheit"></span></p></center> <hr><hr>
+
+<h1 id="dhawan">Speed Converter</h1>
+<p>
+<center><label>Kilometer Per Hour</label>
+<input
+id="Km"
+type="number"
+placeholder="KilometersPerHour"
+oninput="KmtoMConverter(this.value)" 
+onchange="KmtoMConverter(this.value)"/>
+</p></center>
+<center><p>Meters Per second: <span class="metersPerSecond"></span></p></center><hr><hr>
+
+<div class="converter">
+    <h2 id="punjab">Hours to Minutes Converter</h2>
+    <input type="number" id="hoursInput" placeholder="Enter hours"><br><br>
+    <button onclick="convert()">Convert</button>
+    <p id="result"></p>
+</div><hr><hr>
+<div class="converter1">
+    <h2 id="rcb">Minutes to Seconds Converter</h2>
+    <input type="number" id="minutesInput" placeholder="Enter minutes"><br><br>
+    <button onclick="convert1()">Convert</button>
+    <p id="result1"></p>
+</div><hr><hr>
+<script src="converter.js">
+</script>
+</body>
+</html>
+</body>
+</html>
